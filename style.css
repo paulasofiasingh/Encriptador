@@ -93,6 +93,10 @@ button {
   border-radius: 16px;
 }
 
+button:hover {
+  opacity: 0.8;
+}
+
 #desencriptar {
   background-color: var(--button-desencriptar-color);
   color: var(--button-encriptar-color);
@@ -105,13 +109,13 @@ button {
   box-sizing: border-box; /* Incluye padding y border en el ancho total */
 }
 
+#textoOutput {
+  display:none;
+}
+
 #copiarTexto {
   background-color: var(--button-encriptar-color);
   color: white;
-}
-
-button:hover {
-  opacity: 0.8;
 }
 
 @media (max-width: 768px) {
